@@ -17,7 +17,7 @@ export function useAsync<TValue>(
 	dependencies: ReadonlyArray<unknown>,
 	discriminator?: unknown,
 ): LuaTuple<
-	| [status: PromiseConstructor["Status"]["Started"], value: undefined]
+	| [status: PromiseConstructor["Status"]["Started"], undefined]
 	| [status: PromiseConstructor["Status"]["Resolved"], value: TValue]
 	| [status: PromiseConstructor["Status"]["Rejected"], errorValue: unknown]
 	| [status: PromiseConstructor["Status"]["Cancelled"], undefined]
