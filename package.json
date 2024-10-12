@@ -4,7 +4,7 @@
 	"description": "Hooks for Jecs ECS",
 	"main": "out/init.luau",
 	"types": "out/index.d.ts",
-	"files": ["out", "!out/jest.config.*", "!out/**/*.test.*", "!out/tests"],
+	"files": ["out", "!out/jest.config.*", "!out/**/*.test.*"],
 	"scripts": {
 		"build": "rbxtsc --type package",
 		"prepublishOnly": "bun run build"
@@ -35,7 +35,7 @@
 	},
 	"dependencies": {
 		"@rbxts/jecs-topo-runtime": "^0.0.2",
-		"@rbxts/phantom": "0.6.1",
+		"@rbxts/phantom": "^0.6.1",
 		"@rbxts/services": "^1.5.5"
 	}
 }
