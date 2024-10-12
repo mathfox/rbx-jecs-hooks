@@ -34,6 +34,8 @@
 		"roblox-ts": "^3.0.0-dev-834585a"
 	},
 	"dependencies": {
-		"@rbxts/phantom": "0.6.1"
+		"@rbxts/jecs-topo-runtime": "^0.0.2",
+		"@rbxts/phantom": "0.6.1",
+		"@rbxts/services": "^1.5.5"
 	}
 }
