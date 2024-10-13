@@ -1,6 +1,6 @@
 {
 	"name": "@rbxts/jecs-hooks",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Hooks for Jecs ECS",
 	"main": "out/init.luau",
 	"types": "out/index.d.ts",
@@ -34,7 +34,7 @@
 		"roblox-ts": "^3.0.0-dev-834585a"
 	},
 	"dependencies": {
-		"@rbxts/jecs-topo-runtime": "^0.0.2",
+		"@rbxts/jecs-topo-runtime": "^0.0.3",
 		"@rbxts/phantom": "^0.6.1",
 		"@rbxts/services": "^1.5.5"
 	}
